@@ -371,7 +371,7 @@ def getModel(model_name, dataset_conf, from_logits = False):
 #%%
 def run():
     # Define dataset parameters
-    dataset = 'HGD' # Options: 'BCI2a','HGD', 'CS2R'
+    dataset = 'BCI2a' # Options: 'BCI2a','HGD', 'CS2R'
     
     if dataset == 'BCI2a': 
         in_samples = 1125
