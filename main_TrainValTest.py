@@ -380,7 +380,7 @@ def run():
         n_classes = 4
         classes_labels = ['Left hand', 'Right hand','Foot','Tongue']
         # data_path = os.path.expanduser('~') + '/BCI Competition IV/BCI Competition IV-2a/BCI Competition IV 2a mat/'
-        data_path = os.path.expanduser('~') + '/kaggle/input/bcic-iv/'
+        data_path = '/kaggle/input/bcic-iv/'
     elif dataset == 'HGD': 
         in_samples = 1125
         n_channels = 44
